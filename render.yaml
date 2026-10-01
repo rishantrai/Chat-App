@@ -14,5 +14,5 @@ services:
     env: static
     rootDir: Client
     buildCommand: npm install && npm run build
-    publishDir: dist
+   staticPublishDir: dist
     plan: free
