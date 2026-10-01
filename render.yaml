@@ -10,9 +10,8 @@ services:
 
   # 2. The Frontend Client
   - type: web
+    type: static
     name: chat-app-frontend
-    env: static
     rootDir: Client
     buildCommand: npm install && npm run build
     staticPublishPath: dist
-    plan: free
